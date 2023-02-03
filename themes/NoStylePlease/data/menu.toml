@@ -1,0 +1,26 @@
+[[entries]]
+title = "about"
+
+  [[entries.entries]]
+  title = "An 3D modeler and designer with eclectic style and a passion for making ideas a reality."
+  [[entries.entries]]
+  title = "github"
+  url = "https://github.com/Taialt97"
+  [[entries.entries]]
+  title = "reddit"
+  url = "https://www.reddit.com/user/Taialt97"
+  [[entries.entries]]
+  title = "linkdin"
+  url = "https://www.linkedin.com/in/taialt/"
+  [[entries.entries]]
+  title = "instagram/taialt.art"
+  url = "https://www.instagram.com/taialt.art/"
+
+[[entries]]
+title = "all posts"
+
+  [entries.post_list]
+  limit = 15
+  show_more = true
+  show_more_text = "See archive..."
+  show_more_url = "posts"
