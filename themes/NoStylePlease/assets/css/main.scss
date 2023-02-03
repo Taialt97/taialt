@@ -13,8 +13,8 @@ body[a="dark"] { @include dark-appearance; }
 @font-face {
   font-family: 'DinaRemaster';
   src: local('DinaRemaster'),
-       url('/static/fonts/DinaRemaster-Regular.woff2') format('woff2'), // Chrome 26+, Opera 23+, Firefox 39+  
-       url('/static/fonts/DinaRemaster-Regular.woff') format('woff'); // Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+  
+       url('/fonts/DinaRemaster-Regular.woff2') format('woff2'), // Chrome 26+, Opera 23+, Firefox 39+  
+       url('/fonts/DinaRemaster-Regular.woff') format('woff'); // Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+  
 }
 
 @media (prefers-color-scheme: dark) {
@@ -31,7 +31,7 @@ html, body { background: white; }
 html { height: 100%; }
 
 body {
-  font-family: 'DinaRemaster', monospace;
+  font-family: 'DinaRemaster';
   color: rgb(36, 36, 36);
   font-size: 16px;
   line-height: 1.4;
