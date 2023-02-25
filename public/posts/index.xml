@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Tai Alt</title>
+    <link>https://radiant-travesseiro-30bf7c.netlify.app/posts/</link>
+    <description>Recent content in Posts on Tai Alt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Feb 2023 14:46:25 +0200</lastBuildDate><atom:link href="https://radiant-travesseiro-30bf7c.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shinigami Keycaps</title>
+      <link>https://radiant-travesseiro-30bf7c.netlify.app/posts/shinigami-keycaps-a-failed-business-in-the-art-of-hand-painted-keycaps/</link>
+      <pubDate>Sat, 04 Feb 2023 14:46:25 +0200</pubDate>
+      
+      <guid>https://radiant-travesseiro-30bf7c.netlify.app/posts/shinigami-keycaps-a-failed-business-in-the-art-of-hand-painted-keycaps/</guid>
+      <description>As a designer and artist, I was always fascinated by the combination of form and function. When I discovered the world of mechanical keyboards, I saw it as a new creative challenge and thus the creation of Shinigami Keycaps, a brand dedicated to making premium and original hand-painted keycaps.
+The Design Process The process of creating a hand-painted keycap starts with a design drawing, which is then turned into a SolidWorks structure for compatibility and fit verification.</description>
+    </item>
+    
+    <item>
+      <title>hr</title>
+      <link>https://radiant-travesseiro-30bf7c.netlify.app/posts/2020-07-09-post-example-with-hr/</link>
+      <pubDate>Thu, 09 Jul 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://radiant-travesseiro-30bf7c.netlify.app/posts/2020-07-09-post-example-with-hr/</guid>
+      <description>Lorem ipsum1 dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus. Nullam vestibulum metus eu purus malesuada, volutpat mattis leo facilisis. Sed consectetur, nisl et semper laoreet, velit augue congue nunc, eget eleifend odio erat eu sapien. Phasellus dictum efficitur dapibus.</description>
+    </item>
+    
+    <item>
+      <title>strange post with custom js</title>
+      <link>https://radiant-travesseiro-30bf7c.netlify.app/posts/2020-07-06-strange-post/</link>
+      <pubDate>Mon, 06 Jul 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://radiant-travesseiro-30bf7c.netlify.app/posts/2020-07-06-strange-post/</guid>
+      <description>This post is strange. It also has some custom js.</description>
+    </item>
+    
+  </channel>
+</rss>
