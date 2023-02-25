@@ -1,5 +1,5 @@
 ---
-title: "Shinigami Keycaps: A Failed Business in the Art of Hand-Painted Keycaps"
+title: "Shinigami Keycaps"
 date: 2023-02-04T14:46:25+02:00
 draft: false
 custom_js: [script]
