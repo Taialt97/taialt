@@ -1,11 +1,9 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://radiant-travesseiro-30bf7c.netlify.app'
 languageCode = 'en-us'
-title = 'taialt97'
+title = 'Tai Alt'
 theme = 'nostyleplease'
-description = "a (nearly) no-CSS, fast, minimalist Hugo theme ported from riggraz/no-style-please."
-homepage = "https://github.com/Masellum/hugo-theme-nostyleplease"
-license = "MIT"
 
+# show HTML 
 [markup]
   [markup.goldmark]
     [markup.goldmark.extensions]

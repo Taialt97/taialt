@@ -1,20 +1,25 @@
 ---
 title: "Shinigami Keycaps: A Failed Business in the Art of Hand-Painted Keycaps"
-custom_js: [script]
 date: 2023-02-04T14:46:25+02:00
 draft: false
+custom_js: [script]
 ---
 
 As a designer and artist, I was always fascinated by the combination of form and function. When I discovered the world of mechanical keyboards, I saw it as a new creative challenge and thus the creation of Shinigami Keycaps, a brand dedicated to making premium and original hand-painted keycaps.
 ## The Design Process
 The process of creating a hand-painted keycap starts with a design drawing, which is then turned into a SolidWorks structure for compatibility and fit verification. The design is then refined through sculpting in ZBrush and mockups are created. Finally, the keycap is printed and hand-painted to bring the design to life.
 
-<a href="#" onpointerenter="showImage()" onpointerleave="hideImage()">
+<a href="#" onpointerenter="showImage(this)" onpointerleave="hideImage(this)">
+  /images/shinigamiKeycaps/Concept_05.png
+  <img src="/images/shinigamiKeycaps/Concept_00.png">
+</a>
+<a href="#" onpointerenter="showImage(this)" onpointerleave="hideImage(this)">
   /images/shinigamiKeycaps/Concept_05.png
   <img src="/images/shinigamiKeycaps/Concept_05.png">
 </a>
 
-![alt](/images/shinigamiKeycaps/Concept_05.png)
+
+<!-- ![alt](/images/shinigamiKeycaps/Concept_05.png) -->
 
 
 ## Resin Printing and Hand-Painting

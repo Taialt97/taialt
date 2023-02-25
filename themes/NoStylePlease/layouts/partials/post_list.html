@@ -1,4 +1,5 @@
 {{- $posts := "" -}}
+{{ $image := .Params.image }}
 
 {{- if .section -}}
     {{- $posts = (where site.RegularPages "Section" .section) -}}
@@ -26,12 +27,32 @@
         {{ $posts = (first .limit $posts ) }}
     {{ end }}
     <ul>
+
+   
         {{- range $post := $posts -}}
         <li>
             <span>{{- ($post.Date | time.Format site.Params.theme_config.date_format) }}</span>
-            <a href="{{ $post.Permalink | relURL }}">{{ $post.Title }}</a>
+
+            {{ if isset .Params "image" }}
+            <!-- <a href="{{ $post.Permalink | relURL }}" onpointerenter="showImage(this)" onpointerleave="hideImage(this)"> 
+            {{ $post.Title }}    
+            <img src="{{ $post.Params.image }}">  -->
+            <a href="#" onpointerenter="showImage(this)" onpointerleave="hideImage(this)">
+                {{ $post.Title }}    
+                <img src="{{ $post.Params.image }}">
+              </a>
+              
+                {{- else -}}
+                <a href="{{ $post.Permalink | relURL }}"> 
+                    {{ $post.Title }}    
+                <img src="noimg"> 
+            {{ end }} 
+            </a>
         </li>
         {{ end }}
+
+
+
         {{- if and .show_more $limit_exceeded }}
             <li><a href="{{ .show_more_url | relURL }}">{{ .show_more_text | default "Show more..." }}</a></li>
         {{ end }}

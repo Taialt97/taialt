@@ -12,7 +12,9 @@
     {{ end }}
   </title>
 
-
+  {{ $script := resources.Get "js/script.js" -}}
+  <script src="{{ $script.RelPermalink }}"></script>
+  
   <link rel="shortcut icon" type="image/x-icon" href="{{ $.Site.Params.favicon | relURL }}" />
   {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" (not hugo.IsProduction)) }}
   {{ $sass := resources.Get "css/main.scss" }}
