@@ -1,4 +1,13 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'Taialt97'
-theme = 'NoStylePlease'
+title = 'taialt97'
+theme = 'nostyleplease'
+description = "a (nearly) no-CSS, fast, minimalist Hugo theme ported from riggraz/no-style-please."
+homepage = "https://github.com/Masellum/hugo-theme-nostyleplease"
+license = "MIT"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+    [markup.goldmark.renderer]
+      unsafe = true

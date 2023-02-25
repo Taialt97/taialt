@@ -1,26 +1,53 @@
 [[entries]]
-title = "about"
+title = "info"
 
   [[entries.entries]]
-  title = "An 3D modeler and designer with eclectic style and a passion for making ideas a reality."
+  title = "a (nearly) no-CSS, fast, minimalist Hugo theme ported from <a href='https://github.com/riggraz/no-style-please'>riggraz/no-style-please</a>."
+
   [[entries.entries]]
-  title = "github"
-  url = "https://github.com/Taialt97"
+  title = "github repo"
+  url = "https://github.com/riggraz/no-style-please"
+
   [[entries.entries]]
-  title = "reddit"
-  url = "https://www.reddit.com/user/Taialt97"
-  [[entries.entries]]
-  title = "linkdin"
-  url = "https://www.linkedin.com/in/taialt/"
-  [[entries.entries]]
-  title = "instagram/taialt.art"
-  url = "https://www.instagram.com/taialt.art/"
+  title = "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
 
 [[entries]]
 title = "all posts"
 
   [entries.post_list]
-  limit = 15
+  limit = 5
   show_more = true
   show_more_text = "See archive..."
   show_more_url = "posts"
+
+[[entries]]
+title = "posts by category"
+
+  [entries.post_list]
+  section = "posts"
+  show_more = true
+  show_more_text = "See more posts..."
+  show_more_url = "posts"
+
+[[entries]]
+title = "rss"
+url = "index.xml"
+
+[[entries]]
+title = "another list"
+
+  [[entries.entries]]
+  title = "with subitems"
+
+    [[entries.entries.entries]]
+    title = "with subsubitems"
+
+    [[entries.entries.entries]]
+    title = "example page"
+    url = "about"
+
+[[entries]]
+title = "PRO TIP"
+entries = [
+   { title = "to edit this menu, edit data/menu.toml file" }
+  ]
