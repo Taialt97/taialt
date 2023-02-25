@@ -3,7 +3,7 @@ title: "Shinigami Keycaps: A Failed Business in the Art of Hand-Painted Keycaps"
 date: 2023-02-04T14:46:25+02:00
 draft: false
 custom_js: [script]
-iamge: "/images/shinigamiKeycaps/Concept_00.png"
+image: "/images/shinigamiKeycaps/Concept_00.png"
 ---
 
 As a designer and artist, I was always fascinated by the combination of form and function. When I discovered the world of mechanical keyboards, I saw it as a new creative challenge and thus the creation of Shinigami Keycaps, a brand dedicated to making premium and original hand-painted keycaps.
