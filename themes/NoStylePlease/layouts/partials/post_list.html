@@ -37,7 +37,7 @@
             <!-- <a href="{{ $post.Permalink | relURL }}" onpointerenter="showImage(this)" onpointerleave="hideImage(this)"> 
             {{ $post.Title }}    
             <img src="{{ $post.Params.image }}">  -->
-            <a href="#" onpointerenter="showImage(this)" onpointerleave="hideImage(this)">
+            <a href="{{ $post.Permalink | relURL }}" onpointerenter="showImage(this)" onpointerleave="hideImage(this)">
                 {{ $post.Title }}    
                 <img src="{{ $post.Params.image }}">
               </a>
